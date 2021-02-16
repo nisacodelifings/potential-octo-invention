@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+  position: absolute;
+  margin-top: 340px;
+}
+div img{
+  width: 375px;
+}
+form{
+  z-index: 1;
+  position: absolute;
+  margin-top: 1500px;
+  margin-bottom: 500px;
+  margin-left: 40px;
+}
+.inputan{
+  width: 290px;
+  border: none;
+  border-top: 1px solid #d6d6d6;
+  height: 49px;
+}
+.button{
+  width: 290px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+.inputan::placeholder{
+  color: black;
+}
+.inputan:focus{
+  -webkit-box-shadow: 0px 1px 21px 0px rgba(3,182,242,0.58);
+  box-shadow: 0px 1px 21px 0px rgba(3,182,242,0.58);
+}
