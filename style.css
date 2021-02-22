@@ -32,7 +32,7 @@ form{
   border: none;
   margin-left: -205px;
   height: auto;
-  margin-top: 5px;
+  margin-top: 9px;
 }
 .button{
   width: 170px;
@@ -41,7 +41,7 @@ form{
   border-radius: 3px;
 }
 .dua{
-  width: 50px;
+  width: 70px;
 }
 svg{
   color: white;
