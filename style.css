@@ -1,39 +1,64 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-div{
-  position: absolute;
-  margin-top: 370px;
-}
-div img{
-  width: 375px;
+.bg{
+/* Set up proportionate scaling */
+width: 100%;
+height: auto;
+
+/* Set up positioning */
+position: fixed;
+top: 0;
+left: 0;
 }
 form{
   z-index: 1;
-  position: absolute;
-  margin-top: 770px;
-  margin-bottom: 30px;
+  position: fixed;
+  margin-top: 350px;
+  margin-left: 10%;
 }
+
 .inputan{
-  width: 290px;
+  position: absolute;
+  width: 200px;
+  margin-left: -200px;
   border: none;
-  border-top: 1px solid #d6d6d6;
-  height: 49px;
+  height: 20px;
+}
+.foot{
+  width: auto;
+  position: absolute;
+}
+.pass{
+  width: 120px;
+  position: absolute;
+  border: none;
+  margin-left: -205px;
+  height: auto;
+  margin-top: 5px;
 }
 .button{
-  width: 290px;
+  width: 170px;
   padding: 10px;
   font-size: 20px;
   border-radius: 3px;
 }
-.inputan::placeholder{
-  color: black;
+.dua{
+  width: 50px;
 }
-.inputan:focus{
-  -webkit-box-shadow: 0px 1px 21px 0px rgba(3,182,242,0.58);
-  box-shadow: 0px 1px 21px 0px rgba(3,182,242,0.58);
+svg{
+  color: white;
+width: 20px;
+height: auto;}
+.button:hover{
+  background: #b8d6ee;
+}
+
+@media screen and (min-width: 375px){
+  form{
+    margin-top: 400px;
+  }
+}
+
+@media screen and (min-width: 425px){
+  form{
+    margin-top: 450px;
+  }
 }
