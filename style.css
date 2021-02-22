@@ -11,7 +11,7 @@ left: 0;
 form{
   z-index: 1;
   position: fixed;
-  margin-top: 350px;
+  margin-top: 400px;
   margin-left: 10%;
 }
 
@@ -53,12 +53,12 @@ height: auto;}
 
 @media screen and (min-width: 375px){
   form{
-    margin-top: 400px;
+    margin-top: 450px;
   }
 }
 
 @media screen and (min-width: 425px){
   form{
-    margin-top: 450px;
+    margin-top: 500px;
   }
 }
